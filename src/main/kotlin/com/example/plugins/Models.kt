@@ -17,3 +17,7 @@ data class Contacts(val first_name: String, val last_name: String,val contact_nu
 @Serializable
 data class ContactNumber(val number:Int,val label: String)
 
+//class that used for json format
+@Serializable
+data class  ResponseMessage(val Message:String)
+
